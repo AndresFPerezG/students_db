@@ -1,0 +1,97 @@
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo hello SQL
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin https://github.com/AndresFPerezG/students_db.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git branch -M main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push -u origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m "added csv files to work on"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+clear
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=postgres
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=students
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+\d
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=students
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+touch insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+chmod +x insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+nano insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+declare -p IFS
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help if
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help -z
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cp courses.csv courses_test.csv
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
