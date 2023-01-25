@@ -3,3 +3,13 @@ history -a
 echo hello SQL
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+git remote add origin https://github.com/AndresFPerezG/students_db.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git branch -M main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push -u origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
