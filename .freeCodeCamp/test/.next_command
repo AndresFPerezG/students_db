@@ -151,3 +151,12 @@ history -a
 pg_dump --help
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+pg_dump --clean --create --insert --username=freecodecamp students > students.sql
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat students.sql
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
